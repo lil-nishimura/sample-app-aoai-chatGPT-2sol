@@ -937,7 +937,7 @@ const Chat = () => {
                   onClick={() => setIsCitationPanelOpen(false)}
                 />
               </Stack>
-              <h5
+              <h3
                 className={styles.citationPanelTitle}
                 tabIndex={0}
                 title={
@@ -947,7 +947,7 @@ const Chat = () => {
                 }
                 onClick={() => onViewSource(activeCitation)}>
                 {activeCitation.title}
-              </h5>
+              </h3>
               <div tabIndex={0}>
                 <ReactMarkdown
                   linkTarget="_blank"
